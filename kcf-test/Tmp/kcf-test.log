@@ -1,0 +1,35 @@
+﻿生成启动时间为 2017/5/16 16:03:59。
+     1>项目“E:\code\KCFcpp-master\kcf-test\kcf-test\kcf-test.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"E:\code\KCFcpp-master\kcf-test\Tmp\\" /Fd"E:\code\KCFcpp-master\kcf-test\Tmp\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\runtracker.cpp
+         runtracker.cpp
+     1>e:\code\kcfcpp-master\src\runtracker.cpp(133): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>e:\code\kcfcpp-master\src\runtracker.cpp(143): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>e:\code\kcfcpp-master\src\runtracker.cpp(144): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>e:\code\kcfcpp-master\src\runtracker.cpp(145): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>e:\code\kcfcpp-master\src\runtracker.cpp(146): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>e:\code\kcfcpp-master\src\runtracker.cpp(158): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>e:\code\kcfcpp-master\src\runtracker.cpp(189): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>e:\code\kcfcpp-master\src\runtracker.cpp(190): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>e:\code\kcfcpp-master\src\runtracker.cpp(191): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>e:\code\kcfcpp-master\src\runtracker.cpp(192): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>e:\code\kcfcpp-master\src\runtracker.cpp(193): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>e:\code\kcfcpp-master\src\runtracker.cpp(194): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>e:\code\kcfcpp-master\src\runtracker.cpp(222): warning C4551: 缺少参数列表的函数调用
+     1>e:\code\kcfcpp-master\src\runtracker.cpp(119): warning C4101: “videonameI”: 未引用的局部变量
+     1>e:\code\kcfcpp-master\src\runtracker.cpp(48): warning C4101: “fp”: 未引用的局部变量
+     1>e:\code\kcfcpp-master\src\runtracker.cpp(231): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : 参见“fopen”的声明
+     1>e:\code\kcfcpp-master\src\runtracker.cpp(235): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(237) : 参见“fscanf”的声明
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\code\KCFcpp-master\kcf-test\Bin\kcf-test.exe" /INCREMENTAL /NOLOGO opencv_calib3d2410d.lib opencv_contrib2410d.lib opencv_core2410d.lib opencv_features2d2410d.lib opencv_flann2410d.lib opencv_gpu2410d.lib opencv_highgui2410d.lib opencv_imgproc2410d.lib opencv_legacy2410d.lib opencv_ml2410d.lib opencv_nonfree2410d.lib opencv_objdetect2410d.lib opencv_photo2410d.lib opencv_stitching2410d.lib opencv_ts2410d.lib opencv_video2410d.lib opencv_videostab2410d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\code\KCFcpp-master\kcf-test\Bin\kcf-test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\code\KCFcpp-master\kcf-test\Bin\kcf-test.lib" /MACHINE:X86 "E:\code\KCFcpp-master\kcf-test\Tmp\fhog.obj"
+         "E:\code\KCFcpp-master\kcf-test\Tmp\kcftracker.obj"
+         "E:\code\KCFcpp-master\kcf-test\Tmp\runtracker.obj"
+         kcf-test.vcxproj -> E:\code\KCFcpp-master\kcf-test\Bin\kcf-test.exe
+     1>已完成生成项目“E:\code\KCFcpp-master\kcf-test\kcf-test\kcf-test.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.59
